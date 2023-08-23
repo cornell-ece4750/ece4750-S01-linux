@@ -8,7 +8,6 @@ ECE 4750 Section 1: Linux Development Environment
 
 **Table of Contents**
 
- - Source the Setup Script
  - Linux Command Line
  - GitHub Account Setup
  - Git Version Control System
@@ -27,7 +26,9 @@ section:
 
 If you are having trouble using VSCode then use PowerSell or Mac Terminal
 for the discussion section.
+
 <!--
+
 Source the Setup Script
 --------------------------------------------------------------------------
 
@@ -62,7 +63,9 @@ following command:
 
 Now that we have source the course setup script we can start to explore
 the Linux command line.
+
 -->
+
 Linux Command Line
 --------------------------------------------------------------------------
 
