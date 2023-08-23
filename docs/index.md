@@ -4,7 +4,7 @@ ECE 4750 Section 1: Linux Development Environment
 
  - Author: Christopher Batten
  - Date: August 26, 2022
- - Distilled by Cecilio C. Tamarit (August 23, 2023) 
+ - Adapted for distillment and humor by Cecilio C. Tamarit (August 23, 2023) 
 
 **Table of Contents**
 
@@ -263,20 +263,23 @@ accidentally deleting your work.
 ### Text Editors
 
 Students are free to use any text editor they want, although we recommend
-students use VS Code which will learn about next week. VS Code is both a
-remote access option _and_ a text editor. If you are using PowerShell,
-you can use Micro to do basic text editing. You can start Micro like
-this:
+students use VS Code which we will learn about next week. VS Code is both a
+remote access option _and_ a text editor. If you are using Terminal, you
+can always resort to nano, emacs, or even vim if you are brave:
+    
+    % nano ece4750-sec01-b.txt
 
-    % micro ece4750-sec01-b.txt
+PowerShell users can launch notepad.exe instead, install the Windows 
+Subsystem for Linux (WSL), or just give up on Windows entirely.
 
-Micro is a lightweight text-based text editor. Use _Ctrl-G_ to learn more
-about the keyboard shortcuts you can use to in Micro.
+<!--
 
 When you are finished go ahead and trash the `sec01` directory to keep
 things tidy.
 
     % trash ~/ece4750/sec01
+
+-->
 
 GitHub Account Setup
 --------------------------------------------------------------------------
@@ -286,7 +289,7 @@ to see if you have a GitHub account on `github.com` using this link:
 `https://github.com/githubid` where `githubid` is your GitHub username on
 `github.com`. If the above link does not work, then you do not have an
 GitHub account on `github.com`. **NOTE: We are using `github.com` not the
-Cornell hosted GitHub!** You will need to create one here:
+Cornell-hosted GitHub!** You can create one here:
 
  - <https://github.com/join>
 
@@ -301,12 +304,16 @@ first and last name in the Name field, and then consider uploading a
 profile photo.
 
  - <https://github.com/settings/profile>
+
 <!--
+
 Once you have a GitHub ID, please fill out the following online so the
 instructors know the mapping from NetID to GitHub ID:
 
  - <http://www.csl.cornell.edu/courses/ece4750/githubid>
+ 
 -->
+
 Before you can begin using GitHub, you need to create an SSH key pair on
 an `ecelinux` machine and upload the corresponding SSH public key to
 GitHub. GitHub uses these keys for authentication. You can follow these
