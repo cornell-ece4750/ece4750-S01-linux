@@ -4,6 +4,7 @@ ECE 4750 Section 1: Linux Development Environment
 
  - Author: Christopher Batten
  - Date: August 26, 2022
+ - Distilled by Cecilio C. Tamarit (August 23, 2023) 
 
 **Table of Contents**
 
@@ -26,7 +27,7 @@ section:
 
 If you are having trouble using VSCode then use PowerSell or Mac Terminal
 for the discussion section.
-
+<!--
 Source the Setup Script
 --------------------------------------------------------------------------
 
@@ -61,7 +62,7 @@ following command:
 
 Now that we have source the course setup script we can start to explore
 the Linux command line.
-
+-->
 Linux Command Line
 --------------------------------------------------------------------------
 
@@ -277,7 +278,7 @@ things tidy.
 GitHub Account Setup
 --------------------------------------------------------------------------
 
-We will be using GitHub for centralized repository hosting. You can check
+We recommend using GitHub for centralized repository hosting. You can check
 to see if you have a GitHub account on `github.com` using this link:
 `https://github.com/githubid` where `githubid` is your GitHub username on
 `github.com`. If the above link does not work, then you do not have an
@@ -297,21 +298,20 @@ first and last name in the Name field, and then consider uploading a
 profile photo.
 
  - <https://github.com/settings/profile>
-
+<!--
 Once you have a GitHub ID, please fill out the following online so the
 instructors know the mapping from NetID to GitHub ID:
 
  - <http://www.csl.cornell.edu/courses/ece4750/githubid>
-
+-->
 Before you can begin using GitHub, you need to create an SSH key pair on
 an `ecelinux` machine and upload the corresponding SSH public key to
-GitHub. GitHub uses these keys for authentication. The course setup
-script takes care of creating an SSH key pair which you can use. View the
-contents of your public key using the following commands:
+GitHub. GitHub uses these keys for authentication. You can follow these
+instructions to set it up:
+ 
+- <https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent>
 
-    % cat ~/.ssh/ece4750-github.pub
-
-Use the following page to upload the public key to GitHub:
+After that, you can upload your new public key to GitHub:
 
  - <https://github.com/settings/ssh>
 
@@ -359,6 +359,13 @@ Where `githubid` is your GitHubID. Now let's clone your new repo to the
     % cat README.md
 
 Where `githubid` is your GitHubID.
+If you did _not_ set up GitHub correctly (willingly or not), you may
+clone a repo directly from us via HTTPS, for example:
+
+    % git clone https://github.com/cornell-ece4750/ece4750-sec01-linux.git sec01
+
+The caveat of this is that you won't have anywhere to push your changes to. If
+you want to store your labs for posterity, we do recommend setting up GitHub.
 
 ### Adding and Committing Files to Local Repository
 
