@@ -9,7 +9,6 @@ ECE 4750 Section 1: Linux Development Environment
 **Table of Contents**
 
  - Linux Command Line
- - To-Do On Your Own
  - For ECE 2400 Alumni or Advanced Students
 
 This discussion section serves as gentle introduction to the basics of
@@ -272,7 +271,7 @@ can always resort to nano, emacs, or even vim if you are brave:
     % nano ece4750-sec01-b.txt
 
 PowerShell users can launch notepad.exe instead, install the Windows 
-Subsystem for Linux (WSL), or just give up on Windows entirely.
+Subsystem for Linux (WSL), or just give up on Windows entirely. :-)
 
 <!--
 
@@ -573,7 +572,7 @@ function. See if you can figure out how the C code maps to these RISCV
 instructions. Use the TinyRV2 instruction set architecture manual located
 here:
 
- - <https://www.csl.cornell.edu/courses/ece4750/handouts/ece4750-tinyrv-isa.txt>
+ - <https://www.csl.cornell.edu/courses/ece4750/handouts/ece4750-tinyrv-isa.pdf>
 
 Experiment with the following variation and look at the corresponding
 RISCV instructions.
