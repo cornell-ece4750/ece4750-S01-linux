@@ -9,8 +9,6 @@ ECE 4750 Section 1: Linux Development Environment
 **Table of Contents**
 
  - Linux Command Line
- - GitHub Account Setup
- - Git Version Control System
  - To-Do On Your Own
  - For ECE 2400 Alumni or Advanced Students
 
@@ -242,6 +240,8 @@ Finally, we can use the `rm` command to remove files.
     % ls
     % rm ece4750-sec01-a.txt
 
+<!--
+
 We have installed a simple program called `trash` which moves files you
 wish to delete into a special subdirectory of your home directory located
 at `${HOME}/tmp/trash`. The following commands create a file and then
@@ -259,6 +259,8 @@ by date. Look in the subdirectory with today's date and you should two
 files corresponding to the two files you deleted. We highly recommend
 always using the `trash` command instead of `rm` since this avoids
 accidentally deleting your work.
+
+-->
 
 ### Text Editors
 
@@ -279,7 +281,6 @@ things tidy.
 
     % trash ~/ece4750/sec01
 
--->
 
 GitHub Account Setup
 --------------------------------------------------------------------------
@@ -305,14 +306,12 @@ profile photo.
 
  - <https://github.com/settings/profile>
 
-<!--
 
 Once you have a GitHub ID, please fill out the following online so the
 instructors know the mapping from NetID to GitHub ID:
 
  - <http://www.csl.cornell.edu/courses/ece4750/githubid>
  
--->
 
 Before you can begin using GitHub, you need to create an SSH key pair on
 an `ecelinux` machine and upload the corresponding SSH public key to
@@ -502,6 +501,8 @@ Then try editing a file using the GitHub web interface. Click on the
 corner to edit this text file. Add another warm color. Click _Commit
 changes_. Then pull these changes to the local repository on the
 `ecelinux` server and verify that your new warm color is included.
+
+-->
 
 For ECE 2400 Alumni (or Advanced Students)
 --------------------------------------------------------------------------
